@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placement Registration</title>
+</head>
+<body>
+    <center>
+        <div class="container">
+            <form action="" class="placement" method="post">
+                <div class="title"><h3>Placement Registration Form</h3></div>
+            </form>
+        </div>
+        <div style="border:2px rgb(24, 159, 169) groove; width:50%;" class="details">
+            <br>
+            <input type="radio" name="gender" class="gender" id="mr">
+            <label for="gender">Mr</label>
+            <input type="radio" name="gender" class="gender" id="mrs">
+            <label for="gender">Mrs</label>
+            <input type="radio" name="gender" class="gender" id="ms">
+            <label for="gender">Ms</label>
+            <br>
+            <br>
+            <label for="username">Student Id</label>
+            <input type="text" class="username" placeholder="enter your id">
+            <br>
+            <br>
+            <label for="username">First Name</label>
+            <input type="text" class="firstname" placeholder="enter your first name">
+            <br>
+            <br>
+            <label for="username">Last Name</label>
+            <input type="text" placeholder="enter your last name" class="lastname">
+            <br>
+            <br>
+            <label for="username">Username</label>
+            <input type="text" placeholder="enter your username" class="username">
+            <br>
+            <br>
+            <label for="password">Password</label>
+            <input type="password" placeholder="enter your password" class="lastname">
+            <br>
+            <br>
+            <label for="address">Address</label>
+            <textarea name="address" id="" cols="25" rows="3"></textarea>
+            <br>
+            <br>
+            <label for="city">City</label>
+            <input type="text" class="city" placeholder="enter your city here">
+            <br>
+            <br>
+            <label for="state">State</label>
+            <select name="forcity" id="city">
+                <option value="none" name="state" id="none"></option>
+                <option value="Andra" name="state" id="ap">Andra Pradesh</option>
+                <option value="Telangana" name="state" id="ts">telangana</option>
+                <option value="other" name="state " id="other">Other</option>
+            </select>&nbsp;PIN<input type="number" placeholder="enter your pin" class="pin">
+            <br><br>Upload Photo <input type="file" class="photo"><br><br>email:
+            <input type="email" placeholder="enter your email" class="email"><br><br>
+            Mobile Number:
+            <input type="number" placeholder="enter your mobile number" class="mobile"><br><br>
+            Language:&nbsp;<input type="checkbox" name="english" id="english" class="language">English&nbsp;
+            <input type="checkbox" name="telugu" id="english" class="language">Telugu&nbsp;
+            <input type="checkbox" name="hindi" id="english" class="language">hindi&nbsp;
+            <br>
+            <label for="address">Additional info</label>
+            <textarea name="additional" id="" cols="25" rows="3"></textarea>
+            <br>
+            <input type="checkbox" id="accept">accept to submit<br>
+            <button class="submit" >sumit</button>
+            <input type="reset" >
+        </div>
+</center>
+</body>
+</html>
